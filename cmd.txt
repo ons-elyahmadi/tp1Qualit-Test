@@ -1,0 +1,7 @@
+python -m coverage run -m pytest TestMathematique.py -v
+pip install coverage
+python -m pytest TestMathematique.py -v
+python -m coverage run -m pytest TestMathematique.py -v
+pip install pytest
+python -m caverage report
+python -m coverage html
